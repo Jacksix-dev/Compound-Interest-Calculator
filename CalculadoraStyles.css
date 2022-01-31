@@ -1,0 +1,119 @@
+
+
+*{
+    background-color: #5271ff;
+    font-family: 'Roboto Slab', serif;    
+}
+h1{
+    color: white
+}
+.titulo{
+    display:flex;
+    color: white;
+    align-content: center;
+    
+}
+
+
+.titulo img{
+    
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+
+.titulo h4{
+text-align: center;
+
+}
+
+
+
+.container{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.form_container{
+display: flex;
+justify-self: center;
+flex-direction: column;  
+border: 3px solid whitesmoke;
+border-style:solid;
+border-radius: 10px;
+width: 450px;
+height: 550px;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 80%;
+    align-self: center;
+    text-align: center;
+    
+}
+
+input{
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    width: 200px;
+    align-self: center;
+    appearance: none;
+    outline: none;
+}
+
+    
+label{
+    color: white;
+}
+
+.compound_button{
+    background-image: linear-gradient(to right, #457fca 0%, #5691c8  51%, #457fca  100%);
+
+    border: 1px solid white;
+    border-radius: 5px;
+    text-decoration: white;
+    color: white;
+    align-self: center;
+    width: 150px;
+    height: 30px;
+    transition: 0.5s;
+       background-size: 200% auto;
+       color: white;            
+       
+       border-radius: 10px;
+       display: block;
+}
+
+.compound_button:hover{
+    background-position: right center; /* change the direction of the change here */
+       color: #fff;
+       text-decoration: none;
+       width: 160px;
+       
+    
+}
+
+.compound_button:active{
+    border:rgb(173, 173, 173);
+    background-image: linear-gradient(to right, #284a75 0%, #34587aa8  51%, #2b518391  100%);
+
+}
+
+.resultado{
+    color: white;
+    align-self: center;
+    width: 85%;
+}
+
+
+footer{
+    padding-top: 12vh;
+    color: white;
+    font-size: small;
+}

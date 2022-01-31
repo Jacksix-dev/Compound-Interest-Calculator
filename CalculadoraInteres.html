@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+   
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcula Tu interes compuesto</title>
+    <link rel="stylesheet" href="C:\Users\Jacksix\Desktop\Proyectos Personales Programacion\Portafolio\Calculadora de Interes Compuesto\CalculadoraStyles.css">
+
+</head>
+<body>
+    <header class="titulo">
+        <img src="C:\Users\Jacksix\Desktop\Proyectos Personales Programacion\Portafolio\Calculadora de Interes Compuesto\Business-trend-and-finance-logo-design-on-transparent-background-PNG.png" alt="">
+        <h4>JackFi</h4>
+    </header>
+<div class="container">
+    <div class="form_container">
+        <form action="" class="form">
+            <h1> Calcula tu Interés Compuesto</h1>
+
+            <label for="">indica tu capital Inicial</label>
+            <input type="number" id="CI">
+
+            <label for="">Indica la tasa de interes anual</label>
+            <input type="number" id="TI">
+
+            <label for="">Cada cuanto el interés es compuesto</label>
+            <input type="number" id="C">
+
+            <label for="">Indica el periodo de inversion en años</label>
+            <input type="number" id="PI">
+
+            <button  id="calcular" type="button" class="compound_button" onclick="calculadoraInteresCompuesto()">Calcular</button>
+
+            <p class="resultado" id = "resultado" ></p>
+        </form>
+
+    </div>
+</div>
+
+<footer>Echo por Facundo Gasco con &#128147;</footer>
+
+<script src="./CalculadoraLogic.js"></script>    
+</body>
+</html>
